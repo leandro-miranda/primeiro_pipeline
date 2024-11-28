@@ -39,7 +39,7 @@ jobs:
   deploy-dev:
     # Needs significa qual job precisa esperar
     needs: build
-    uses: leandro-miranda/pipeline_templates/.github.workflows/demo-deploy.yml@main
+    uses: leandro-miranda/pipeline_templates/.github/workflows/demo-deploy.yml@main
     with:
       variavel-demo: "Demo Dev"
     
